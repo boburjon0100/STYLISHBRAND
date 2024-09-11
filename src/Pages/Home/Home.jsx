@@ -6,7 +6,7 @@ import Skidka from '../../Component/Skidka/Skidka'
 import Camoy from '../../Component/Camoy/Camoy'
 import Brand from '../../Component/Brand/Brand'
 import Doma from '../../Component/Doma/Doma'
-import Yuklama from '../../Component/yuklama/Yuklama'
+import Yuklama from '../../Component/Yuklama/Yuklama'
 
 const Home = () => {
   return (
