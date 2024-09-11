@@ -1,0 +1,86 @@
+.odevautShop{
+    width: 315px;
+    height: 540px;
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    .box{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 16px;
+        button{
+            width: 260px;
+            height: 45px;
+            border: 1px solid #CCC4B6;
+            background-color: white;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 10px;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid black;
+            }
+            svg{
+                font-size: 18px;
+            }
+        }
+        svg{
+            font-size: 28px;
+            color: #5F6368;
+            cursor: pointer;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .odevautShop{
+        width: 315px;
+        height: 540px;
+        img{
+            width: 100%;
+            height: 350px;
+        }
+        .box{
+            width: 100%;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 16px;
+            button{
+                width: 260px;
+                height: 45px;
+                border: 1px solid #CCC4B6;
+                background-color: white;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 10px;
+                cursor: pointer;
+                &:hover{
+                    border: 1px solid black;
+                }
+                svg{
+                    font-size: 18px;
+                }
+            }
+            svg{
+                font-size: 28px;
+                color: #5F6368;
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}

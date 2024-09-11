@@ -1,0 +1,57 @@
+.interes{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 1015px;
+        height: 470px ;
+        margin: 0 auto;
+        .top6{
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            p{
+                font-size: 30px;
+                font-weight: 400;
+                color: black;
+            }
+        }
+        .bottom{
+            width: 100%;
+            height: 430px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+    }
+}
+@media (max-width: 480px) {
+    .interes{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 95%;
+            height: auto ;
+            margin: 0 auto;
+            .top6{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                p{
+                    font-size: 28px;
+                    font-weight: 400;
+                    color: black;
+                }
+            }
+            .bottom{
+                width: 100%;
+                height: auto;
+                row-gap: 20px;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+            }
+        }
+    }
+}

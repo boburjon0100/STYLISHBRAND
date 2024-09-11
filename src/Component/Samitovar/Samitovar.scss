@@ -1,0 +1,95 @@
+.samitovar{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 1400px;
+        height: 570px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .top5{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                font-size: 38px;
+            }
+            .box{
+                width: 90px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                svg{
+                    font-size: 30px;
+                    border-radius: 10px;
+                    &:hover{
+                        border: 1px solid gray;
+                    }
+
+                }
+            }
+        }
+        .botom{
+            width: 100%;
+            height: 492px;
+            display: flex;
+            align-items: center;
+            margin-top: 35px;
+            justify-content: space-between !important;
+        }
+    }
+}
+@media (max-width:480px){
+    .samitovar{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 95%;
+            height: auto;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            .top5{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-size: 22px;
+                }
+                .box{
+                    width: 65px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    svg{
+                        font-size: 25px;
+                        border-radius: 10px;
+                        &:hover{
+                            border: 1px solid gray;
+                        }
+    
+                    }
+                }
+            }
+            .botom{
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                margin-top: 35px;
+                flex-wrap: wrap;
+                row-gap: 20px;
+                justify-content: space-between !important;
+                .shop:nth-child(n+3){
+                    display: none;
+                }
+            }
+        }
+    } 
+}

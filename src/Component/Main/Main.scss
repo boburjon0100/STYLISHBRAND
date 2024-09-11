@@ -1,0 +1,28 @@
+.main{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 1400px;
+        height: auto;
+        margin: 70px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media (max-width:480px){
+    .main{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 95%;
+            height: auto;
+            margin: 40px auto;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }    
+}

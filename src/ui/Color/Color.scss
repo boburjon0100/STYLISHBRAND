@@ -1,0 +1,52 @@
+.color{
+    width: 20%;
+    height: 255px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    .black{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .red{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #9B3131;
+        margin-top: 16px
+    }
+    .white{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid gray;
+        margin-top: 16px
+    }
+    .yelow{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #D4B305;
+        margin-top: 14px
+    }
+    .orange{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #D6743D;
+        margin-top: 21px
+    }
+    .gren{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #478C6F;
+        margin-top: 20px
+    }
+
+}
