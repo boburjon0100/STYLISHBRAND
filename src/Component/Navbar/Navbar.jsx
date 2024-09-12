@@ -7,11 +7,11 @@ import {Link, NavLink} from "react-router-dom"
 import { HiBars3 } from "react-icons/hi2";
 
 
-const Navbar = () => {
+const Navbar = ({setBars}) => {
   return (
     <section className='navbar'>
       <div className="container">
-      <HiBars3 className='bars2'/>
+      <HiBars3 onClick={()=> setBars(true)} className='bars2'/>
         <ul>
           <li>
             <a href="#">Для него</a>  
