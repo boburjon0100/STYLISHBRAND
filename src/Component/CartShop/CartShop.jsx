@@ -9,16 +9,17 @@ const CartShop = () => {
       <div className="container">
         <div className="left">
           <div className="leftimg">
+          <div  className="heart">
+            <IoMdHeartEmpty />
+            </div>
             <img src="./images/cart11.png" alt="" />
+            
             <img src="./images/cart12.png" alt="" />
             <img src="./images/cart13.png" alt="" />
             <img src="./images/cart15.png" alt="" />
           </div>
           <div className="rightimg">
             <img src="./images/cart11.png" alt="" />
-            <div  className="heart">
-            <IoMdHeartEmpty />
-            </div>
           </div>
         </div>
         <div className="right">

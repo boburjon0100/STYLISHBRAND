@@ -89,7 +89,7 @@
 @media (max-width: 480px){
   .filtrSection {
     width: 0;
-    height: 730px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.511);
     position: absolute;
     left: 0;
@@ -102,7 +102,7 @@
       width: 100%;
     }
     .filtr {
-      width: 400px;
+      width: 100%;
       height: 100%;
       border: 1px solid #ece7de;
       background-color: white;
@@ -131,16 +131,17 @@
         }
       }
       .filtrbotom{
-          width: 100%;
+          width: 95%;
           height: 70px;
           display: flex;
           align-items: center;
-          justify-content: center;
-          gap: 20px;
+          justify-content: space-around;
+          gap: 10px;
           position: absolute;
+          margin: 0 auto;
           bottom: 0;
           button{
-              width: 280px;
+              width: 250px;
               height: 50px;
               font-size: 16px;
               font-weight: 700;

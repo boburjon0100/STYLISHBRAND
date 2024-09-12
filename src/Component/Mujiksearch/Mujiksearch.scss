@@ -52,6 +52,12 @@
         justify-content: space-between;
         .box3{
           display: none;
+          .tepas{
+            display: none;
+          }
+        }
+        .inputvalue{
+          display: none;
         }
         h1 {
           font-size: 38px;
@@ -70,7 +76,6 @@
             width: 260px;
             height: 100%;
             border: none;
-
             outline: none;
             font-size: 16px;
             padding: 2px 5px 2px 0;
@@ -293,7 +298,8 @@
   .search {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    position: relative;
+    z-index: 2;
   
     .container {
       width: 100%;
@@ -385,6 +391,9 @@
             align-items: center;
             justify-content: space-between;
             margin: 0 auto;
+            &.active{
+              display: none;
+            }
             h1{
               font-size: 28px;
               color: black;
@@ -399,8 +408,79 @@
               justify-content: center;
               gap: 15px;
               color: black;
+            .tepas{
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              z-index: 0;
+              &:hover{
+                .bubble{
+                  display: grid;
+                }
+              }
+
+              .bubble{
+                width: 230px;
+                height: 230px;
+                position: absolute;
+                border: 1px solid red;
+                right: -50px;
+                z-index: 1;
+                display: none;
+                gap: 8px;
+                top: 32px;
+                border-radius: 8px;
+                background-color: white;
+                border: 1px solid gray;
+                p{
+                  &:hover{
+                    font-weight: 600;
+                    color:  black !important;
+                  }
+                }
+              }
+              svg{
+                font-size: 22px;
+                color: black;
+              }
+
+            }
+              
             }
           }
+          .inputvalue{
+              width: 100%;
+              height: 45px;
+              border: 1px solid #ccc4b6;
+              display: none;
+              align-items: center;
+              border-radius: 8px;
+              &.active{
+                display: flex;
+              }
+              justify-content: space-around;
+              cursor: pointer;
+              input {
+                width: 80%;
+                height: 100%;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                padding: 2px 5px 2px 0;
+                cursor: pointer;
+              }
+              svg {
+                font-size: 25px;
+                &:hover{
+                  color: red;
+                }
+              }
+            
+          }
+
           h1 {
             font-size: 38px;
             font-weight: 400;
@@ -434,18 +514,20 @@
         }
       }
       .linkbotom {
-        width: 440px;
+        width: 100%;
         height: auto;
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        padding: 0 10px;
         justify-content: space-between;
+        overflow-x: scroll;
         .left {
-          width: 100%;
+          width: max-content;
           height: 100%;
           display: flex;
           align-items: center;
           justify-content: space-between;
+          gap: 10px;
           .box1 {
             width: 50px;
             height: 50px;
@@ -550,7 +632,6 @@
             align-items: center;
             justify-content: center;
             gap: 0px;
-            display: none;
   
             border: 1px solid #e6c08b;
             cursor: pointer;
@@ -570,7 +651,6 @@
             align-items: center;
             justify-content: center;
             gap: 0px;
-            display: none;
             border: 1px solid #e6c08b;
             cursor: pointer;
             &:hover {
@@ -589,7 +669,6 @@
             align-items: center;
             justify-content: center;
             gap: 0px;
-            display: none;
             border: 1px solid #e6c08b;
             cursor: pointer;
             &:hover {
@@ -608,7 +687,6 @@
             align-items: center;
             justify-content: center;
             gap: 0px;
-            display: none;
             border: 1px solid #e6c08b;
             cursor: pointer;
             &:hover {
@@ -624,7 +702,6 @@
         .right {
           width: 170px;
           height: 30px;
-          display: flex;
           align-items: center;
           justify-content: center;
           gap: 15px;

@@ -15,12 +15,14 @@ const Doma = () => {
                     <LuMoveRight />
                 </div>
             </div>
-            <div className="botom">
+           <div className="botomota1">
+           <div className="botom">
               <Shop shop1={"Мужская Финка Brunello_Cucinelli "} imgshop={<img src="./images/doma1.png" alt=""></img>}/>
               <Shop shop1={"Сумка gucci для мужчин"} imgshop={<img src="./images/doma2.png" alt=""></img>}/>
               <Shop shop1={"Мужская Финка Brunello_Cucinelli  "} imgshop={<img src="./images/doma3.png" alt=""></img>}/>
               <Shop shop1={"Мокасины Hermes для мужчин"} imgshop={<img src="./images/doma4.png" alt=""></img>}/>
             </div>
+           </div>
           </div>
     </section>
   )

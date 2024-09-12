@@ -2,6 +2,10 @@
 width: 100%;
 height: auto;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+ }
 @font-face {
     font-family: 'qwer';
     src: url(../fonts/Jost-Regular.ttf);

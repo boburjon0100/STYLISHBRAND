@@ -90,17 +90,21 @@
                     }
                 }
             }
-            .botom{
+            .botomota1{
                 width: 100%;
                 height: auto;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: end;
-                .shop:nth-child(n+3){
-                    display: none;
+                overflow-x: scroll;
+                .botom{
+                    width: max-content;
+                    height: auto;
+                    display: flex;
+                    gap: 30px;
+                    justify-content: space-between;
+                    align-items: end;
+                    padding-bottom: 15px;
                 }
             }
+            
         }
     }
 }

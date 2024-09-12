@@ -14,12 +14,14 @@ const Camoy = () => {
                     <LuMoveRight />
                 </div>
             </div>
-            <div className="botom">
+           <div className="botomota">
+           <div className="botom">
               <Shop shop1={"Мужская Финка Brunello_Cucinelli "} imgshop={<img src="./images/camoy1.png" alt=""></img>}/>
               <Shop shop1={"Сумка gucci для мужчин"} imgshop={<img src="./images/camoy2.png" alt=""></img>}/>
               <Shop shop1={"Мужская Финка Brunello_Cucinelli "} imgshop={<img src="./images/camoy3.png" alt=""></img>}/>
               <Shop shop1={"Мокасины Hermes для мужчин"} imgshop={<img src="./images/camoy4.png" alt=""></img>}/>
             </div>
+           </div>
         </div>
     </section>
   )
