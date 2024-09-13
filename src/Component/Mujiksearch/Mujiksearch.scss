@@ -722,3 +722,432 @@
     }
   }
 }
+
+@media (min-width: 480px ) and ( max-width:768px){
+  .search {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  
+    .container {
+      width: 100%;
+      height: auto;
+      margin: 20px auto;
+      .topsearch {
+        width: 95%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 30px auto;
+        .top1 {
+          width: 100%;
+          height: auto;
+          display: none;
+          align-items: center;
+          gap: 8px;
+          h6 {
+            color: #8d8474;
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover {
+              color: black;
+              font-weight: 600;
+            }
+          }
+          svg {
+            width: 16px;
+            height: 16px;
+            color: #8d8474;
+            margin-top: 8.5px;
+          }
+          h5 {
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover {
+              color: black;
+              font-weight: 600;
+            }
+          }
+        }
+        .top2{
+          width: 95%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          margin: 0 auto;
+          gap: 8px;
+          h6 {
+            color: #8d8474;
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover {
+              color: black;
+              font-weight: 600;
+            }
+          }
+          svg {
+            width: 16px;
+            height: 16px;
+            color: #8d8474;
+            margin-top: 8.5px;
+          }
+          h5 {
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+            &:hover {
+              color: black;
+              font-weight: 600;
+            }
+          }
+        }
+        .botom1 {
+          width: 100%;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .box3{
+            width: 95%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            &.active{
+              display: none;
+            }
+            h1{
+              font-size: 28px;
+              color: black;
+              display: block;
+            }
+            .input1{
+              width: 80px;
+              height: 40px;
+              font-size: 22px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 15px;
+              color: black;
+            .tepas{
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              z-index: 0;
+              &:hover{
+                .bubble{
+                  display: grid;
+                }
+              }
+
+              .bubble{
+                width: 230px;
+                height: 230px;
+                position: absolute;
+                border: 1px solid red;
+                right: -50px;
+                z-index: 1;
+                display: none;
+                gap: 8px;
+                top: 32px;
+                border-radius: 8px;
+                background-color: white;
+                border: 1px solid gray;
+                p{
+                  &:hover{
+                    font-weight: 600;
+                    color:  black !important;
+                  }
+                }
+              }
+              svg{
+                font-size: 22px;
+                color: black;
+              }
+
+            }
+              
+            }
+          }
+          .inputvalue{
+              width: 100%;
+              height: 45px;
+              border: 1px solid #ccc4b6;
+              display: none;
+              align-items: center;
+              border-radius: 8px;
+              &.active{
+                display: flex;
+              }
+              justify-content: space-around;
+              cursor: pointer;
+              input {
+                width: 80%;
+                height: 100%;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                padding: 2px 5px 2px 0;
+                cursor: pointer;
+              }
+              svg {
+                font-size: 25px;
+                &:hover{
+                  color: red;
+                }
+              }
+            
+          }
+
+          h1 {
+            font-size: 38px;
+            font-weight: 400;
+            display: none;
+          }
+          .input {
+            width: 320px;
+            height: 40px;
+            border: 1px solid #ccc4b6;
+            display: flex;
+            align-items: center;
+            display: none;
+
+  
+            justify-content: space-around;
+            cursor: pointer;
+            input {
+              width: 260px;
+              height: 100%;
+              border: none;
+  
+              outline: none;
+              font-size: 16px;
+              padding: 2px 5px 2px 0;
+              cursor: pointer;
+            }
+            svg {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .linkbotom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        .left {
+          width: max-content;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 10px;
+          .box1 {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border: 1px solid black;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+              display: none;
+              color: black;
+            }
+            svg {
+              font-size: 22px;
+              color: black;
+            }
+          }
+          .box2 {
+            width: 160px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+  
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+              .check {
+                border: 1px solid black;
+              }
+            }
+            p {
+              font-size: 16px;
+              font-weight: 600;
+            }
+            .check {
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid #e6c08b;
+              border-radius: 50%;
+              svg {
+                font-size: 16px;
+                font-weight: 400;
+              }
+            }
+          }
+          .box3 {
+            width: 70px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+  
+            background-color: #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .box4 {
+            width: 130px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+  
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .box5 {
+            width: 76px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+  
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .box6 {
+            width: 60px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .box7 {
+            width: 77px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+          .box8 {
+            width: 85px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            border: 1px solid #e6c08b;
+            cursor: pointer;
+            &:hover {
+              background-color: #e6c08b;
+              border: none;
+            }
+            p {
+              font-size: 16px;
+              font-weight: 400;
+            }
+          }
+        }
+        .right {
+          width: 170px;
+          height: 30px;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          display: none;
+          cursor: pointer;
+          &:hover {
+            border: 1px solid black;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 600;
+          }
+          svg {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  } 
+}

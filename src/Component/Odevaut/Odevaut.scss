@@ -61,3 +61,39 @@
         }
     }
 }
+
+@media (min-width: 480px ) and ( max-width:768px){
+    .odevaut{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 95%;
+            height: auto;
+            margin: 0 auto 50px auto;
+            .odevauttop{
+                width: 100%;
+                height: 40px;
+                p{
+                    font-size: 28px;
+                    color: black;
+                }
+            }
+            .odevautbotom{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 10px;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 23px;
+                .odevautShop{
+                    display: none;
+                }
+                .shop{
+                    display: block;
+                }
+            }
+        }
+    }
+}

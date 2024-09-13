@@ -55,3 +55,35 @@
         }
     }
 }
+
+@media (min-width: 480px ) and ( max-width:768px){
+    .interes{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 95%;
+            height: auto ;
+            margin: 0 auto;
+            .top6{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                p{
+                    font-size: 28px;
+                    font-weight: 400;
+                    color: black;
+                }
+            }
+            .bottom{
+                width: 100%;
+                height: auto;
+                row-gap: 25px;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-around;
+            }
+        }
+    }   
+}

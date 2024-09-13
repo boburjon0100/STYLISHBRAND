@@ -152,3 +152,83 @@
         }
     }
 }
+
+@media (min-width: 480px ) and ( max-width:768px){
+    .opisaniya{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .top15{
+                width: 95%;
+                height: 30px;
+                display: flex;
+                margin: 0 auto;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-size: 26px;
+                    color: black;
+                }
+                svg{
+                    font-size: 28px;
+                    color: rgb(71, 71, 71);
+                }
+            }
+            .leftopisaniya{
+                width: 95%;
+                height: auto;
+                display: flex;
+                margin: 20px auto;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .top16{
+                  width: 98%;
+                  height: auto;
+                  margin-top: 5px;
+                }
+                .leftopisaniya1{
+                    width: 335px;
+                    height: auto;
+                    margin-top: 25px;
+                    .box{
+                        width: 100%;
+                        height: 25px;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 12px;
+                        p{
+                            font-size: 16px;
+                            color: black;
+                        }
+                        svg{
+                            font-size: 20px;
+                            color: #AEA594;
+                        }
+                    }
+                }
+                .rightopisaniya1{
+                  width: 275px;
+                  height: auto;
+                  margin-top: 25px;
+                }
+            }
+            .rightopisaniya{
+                width: 90%;
+                height: auto;
+                margin-top: 0px;
+                margin: 20px auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

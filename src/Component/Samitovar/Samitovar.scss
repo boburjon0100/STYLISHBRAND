@@ -43,37 +43,7 @@
     }
 }
 @media (max-width:480px){
-    // .samitovar{
-    //     width: 100%;
-    //     height: auto;
-    //     .container{
-    //         width: 95%;
-    //         height: auto;
-    //         margin: 0 auto;
-    //         display: flex;
-    //         flex-direction: column;
-            
-            
-    //         .bottomota{
-    //             width: 100%;
-    //             height: auto;
-    //             overflow-x: scroll ;
-    //             .botom{
-    //                 width: max-content;
-    //                 padding: 0 1%;
-    //                 height: auto;
-    //                 display: flex;
-    //                 align-items: center;
-    //                 margin-top: 35px;
-    //                 padding-bottom: 15px;
-    //                 gap: 10px;
-    //                 row-gap: 20px;
-    //                 justify-content: center !important;
-                    
-    //             }
-    //         }
-    //     }
-    // } 
+    
     .samitovar{
         width: 100%;
         height: auto;
@@ -85,6 +55,63 @@
             flex-direction: column;
             .top5{
                 width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                p{
+                    font-size: 22px;
+                }
+                .box{
+                    width: 65px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    svg{
+                        font-size: 25px;
+                        border-radius: 10px;
+                        &:hover{
+                            border: 1px solid gray;
+                        }
+    
+                    }
+                }
+            }
+            .bottomota{
+                width: 100%;
+                height: auto;
+                overflow-x: scroll;
+                .botom{
+                    width: max-content;
+                    padding: 0 1%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    gap: 20px;
+                    padding-bottom: 20px;
+                    justify-content: space-between !important;
+                } 
+            }
+            
+        }
+    } 
+}
+
+@media (min-width: 480px ) and ( max-width:768px){
+    .samitovar{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            .top5{
+                width: 95%;
+                margin: 0 auto;
                 height: auto;
                 display: flex;
                 align-items: center;

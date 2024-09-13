@@ -5,6 +5,7 @@ height: auto;
 ::-webkit-scrollbar {
   width: 0px;
   height: 0;
+  display: none;
  }
 @font-face {
     font-family: 'qwer';
