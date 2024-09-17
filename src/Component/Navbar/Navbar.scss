@@ -431,3 +431,147 @@
     }
   }
 }
+
+@media (min-width: 768px ) and ( max-width: 1024px){
+  .navbar {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ECE7DE;
+    .container {
+      width: 100%;
+      height: 90px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      .bars2{
+        display: none;
+      }
+      ul {
+        display: flex;
+        gap: 10px;
+        a {
+          font-size: 14px;
+          font-weight: 400;
+          color: black;
+          cursor: pointer;
+          &:hover {
+              font-weight: 600;
+          }
+        }
+      }
+    .logo{
+      text-align: center;
+      p{
+        font-size: 12px;
+        color: #8D8474;
+      }
+      a{
+        h1 {
+          color: black;
+          font-weight: 600;
+          font-size: 20px;
+          cursor: pointer;
+        }
+       
+      }
+    }
+     
+      .icon {
+        width: max-content;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        .phone {
+          width: 140px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          cursor: pointer;
+          p {
+            font-size: 14px;
+            font-weight: 500;
+            &:hover{
+              color: black;
+              font-weight: 600;
+            }
+          }
+          svg {
+            font-size: 18px;
+            color: #8d8474;
+            &:hover{
+              color: #8d8474;
+          }
+          }
+        }
+        .language {
+          width: 45px;
+          height: 30px;
+          display: flex;
+          border-radius: 10px;
+          align-items: center;
+          justify-content: space-around;
+          position: relative;
+          cursor: pointer;
+          &:hover{
+              border-radius: 10px 10px 0 0;
+              border: 0.1px solid rgb(223, 223, 223);
+              .lang{
+                  display: block;
+                  border-radius: 0 0 10px 10px;
+                  border: 0.1px solid rgb(223, 223, 223);
+              }
+          }
+  
+          .lang{
+              width: 45px;
+              height: 80px;
+              position: absolute;
+              display: none;
+              border-radius: 10px ;
+              right: -0.5px;
+              bottom: -80px;
+              text-align: center;
+              background-color: white;
+              p{
+                  width: 100%;
+                  height: 25px;
+                  font-size: 16px;
+                  font-weight: 500;
+                  &:hover{
+                      border: 1px solid rgb(153, 153, 153);
+                  }
+              }
+          }
+          p{
+              color: black;
+              font-size: 14px;
+              font-weight: 500;
+          }
+          svg {
+            color: #8d8474;
+            font-size: 18px;
+            &:hover{
+              color: #8d8474;
+          }
+          }
+        }
+        svg{
+          color:  black;
+          font-size: 22px;
+          cursor: pointer;
+          &:hover{
+              color: red;
+              border: 1px solid black;
+              border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+}

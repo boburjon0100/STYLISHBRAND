@@ -87,3 +87,34 @@
         }
     }   
 }
+@media (min-width: 768px ) and ( max-width: 1024px){
+    .interes{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto ;
+            margin: 0 auto;
+            .top6{
+                width: 100%;
+                height: 40px;
+                text-align: center;
+                p{
+                    font-size: 32px;
+                    font-weight: 400;
+                    color: black;
+                }
+            }
+            .bottom{
+                width: 100%;
+                height: auto;
+                margin: 30px auto;
+                display: flex;
+                row-gap: 30px;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+    }  
+}

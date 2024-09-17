@@ -152,3 +152,40 @@
     }
   }
 }
+@media (min-width: 768px ) and ( max-width: 1024px){
+  .top {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ece7de;
+    display: flex;
+    align-items: center;
+    .container {
+      width: 100%;
+      height: 25px;
+      margin: 0 auto;
+      ul {
+        display: flex;
+        gap: 35px;
+        a {
+          color: #8d8474;
+          font-size: 16px;
+          &:hover {
+            font-weight: 600;
+            color: black;
+          }
+  
+          span {
+            font-weight: 600;
+            color: black;
+          }
+        }
+      }
+      .botom {
+        display: none;
+      }
+      .top19{
+          display: none;
+      }
+    }
+  } 
+}
