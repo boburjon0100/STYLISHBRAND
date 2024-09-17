@@ -219,15 +219,15 @@
             }
             .botomota1{
                 width: 100%;
-                height: auto;
-                overflow-x: scroll;
+                height: auto;;
                 .botom{
-                    width: max-content;
+                    width: 100%;
                     height: auto;
                     display: flex;
+                    flex-wrap: wrap;
                     padding: 0 1%;
                     gap: 20px;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: end;
                     padding-bottom: 15px;
                 }
