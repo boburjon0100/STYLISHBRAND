@@ -241,13 +241,17 @@
           height: 40px;
           display: flex;
           align-items: center;
-          justify-content: space-around;
+          justify-content: center;
+          gap: 10px;
+          background-color: white;
           margin: 10px auto;
+          color: black;
           cursor: pointer;
           &:hover{
               border: 1px solid gray;
-              justify-content: space-around;
+              justify-content: center;
               border-radius: 5px ;
+              gap: 10px;
           }
           p{
               font-size: 16px;
