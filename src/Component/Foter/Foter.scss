@@ -37,16 +37,24 @@
                 height: 28px;
                 border-radius: 50%;
                 background-color: black;
-                color: white;
                 display: flex;
                 align-items: center;
                 font-size: 17px;
                 justify-content: center;
                 cursor: pointer;
+                svg{
+                    color: white;
+                    font-size: 17px;
+                    margin-top: 5px;
+                }
                 &:hover{
                     color: black;
                     background-color: white;
                     font-size: 25px;
+                    svg{
+                        color: black;
+                        font-size: 20px;
+                    }
                 }
             }
         }

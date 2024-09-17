@@ -1,5 +1,5 @@
 import React from "react";
-import './Foter.scss'
+import "./Foter.scss";
 import { LuInstagram } from "react-icons/lu";
 import { BsTelegram } from "react-icons/bs";
 import { FaYoutube } from "react-icons/fa";
@@ -12,37 +12,45 @@ const Foter = () => {
         <img src="./images/foter.png" alt="" />
         <ul>
           <li>
-            <a href="#">Главная</a>
+            <a href="#foter">Главная</a>
           </li>
           <li>
-            <a href="#">Мужской каталог</a>
+            <a href="#foter">Мужской каталог</a>
           </li>
           <li>
-            <a href="#">Женский каталог</a>
+            <a href="#foter">Женский каталог</a>
           </li>
           <li>
-            <a href="#">Детские Одежды</a>
+            <a href="#foter">Детские Одежды</a>
           </li>
           <li>
-            <a href="#">Товары для дома</a>
+            <a href="#foter">Товары для дома</a>
           </li>
         </ul>
         <div className="boxes">
-            <div className="box">
-            <LuInstagram />
-            </div>
-            <div className="box">
-            <FaYoutube />
-            </div>
-            <div className="box">
-            <BsTelegram />
-            </div>
-            <div className="box">
-            <IoLogoWhatsapp />
-            </div>
+          <div className="box">
+            <a href="#instagram">
+              <LuInstagram />
+            </a>
+          </div>
+          <div className="box">
+            <a href="#youtube">
+              <FaYoutube />
+            </a>
+          </div>
+          <div className="box">
+            <a href="#telegram">
+              <BsTelegram />
+            </a>
+          </div>
+          <div className="box">
+            <a href="#whatsup">
+              <IoLogoWhatsapp />
+            </a>
+          </div>
         </div>
         <div className="box1">
-            <p>StylishBrand.uz 2024</p>
+          <p>StylishBrand.uz 2024</p>
         </div>
       </div>
     </section>
