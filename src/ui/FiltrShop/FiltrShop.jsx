@@ -89,7 +89,7 @@ export default function ControlledAccordions() {
           aria-controls="panel5bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"16px"}}>Цены</Typography>
+          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"20px"}}>Цены</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{display:"flex" , alignItems:"center" , justifyContent:"center", gap:"10px"}}>
