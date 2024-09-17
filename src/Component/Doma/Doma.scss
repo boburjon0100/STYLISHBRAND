@@ -194,7 +194,69 @@
                 justify-content: space-between;
                 margin: 0 auto;
                 p{
-                    font-size: 38px;
+                    font-size: 32px;
+                }
+                .box{
+                    width: 170px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    p{
+                        font-size: 18px;
+                    }
+                    &:hover{
+                        border: 1px solid gray;
+                        border-radius: 5px ;
+                        justify-content: space-around;
+                    }
+                    svg{
+                        font-size: 28px;
+                        
+                    }
+                }
+            }
+            .botomota1{
+                width: 100%;
+                height: auto;;
+                .botom{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0 1%;
+                    gap: 20px;
+                    justify-content: space-around;
+                    align-items: end;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px ) and ( max-width: 1410px){
+    .doma{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            gap: 20px;
+    
+            .top4{
+                width: 95%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0 auto;
+                p{
+                    font-size: 34px;
                 }
                 .box{
                     width: 170px;

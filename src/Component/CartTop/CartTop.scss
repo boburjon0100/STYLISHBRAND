@@ -135,3 +135,38 @@
         }
     }  
 }
+
+@media (min-width: 1024px ) and ( max-width: 1410px){
+    .carttop{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 40px auto;
+            p{
+                font-size: 16px;
+                color: black;
+                cursor: pointer;
+                &:hover{
+                    font-weight: 700;
+                }
+                span{
+                    font-size: 16px;
+                    color: #8D8474;
+                    &:hover{
+                        font-weight: 700;
+                        color: black;
+                    }
+                }
+                svg{
+                    font-size: 16px;
+                    margin-top: 8.5px;
+                }
+            }
+        }
+    }
+}

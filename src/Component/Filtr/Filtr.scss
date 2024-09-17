@@ -358,3 +358,94 @@
     
   }
 }
+
+@media (min-width: 1024px ) and ( max-width: 1410px){
+  .filtrSection {
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.511);
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    transition: all 0.1s linear;
+    overflow: hidden;
+    &.active2 {
+      width: 100%;
+    }
+    .filtr {
+      width: 400px;
+      height: 100%;
+      border: 1px solid #ece7de;
+      background-color: white;
+      position: relative;
+     
+      
+      .filtrtop {
+        width: 100%;
+        height: 70px;
+        border-bottom: 1px solid #ece7de;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        p {
+          font-size: 24px;
+          color: black;
+          font-weight: 400;
+        }
+        svg {
+          font-size: 24px;
+          cursor: pointer;
+          &:hover{
+              color: red;
+          }
+        }
+      }
+      .filtrbotom{
+          width: 100%;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          position: absolute;
+          bottom: 0;
+          button{
+              width: 280px;
+              height: 50px;
+              font-size: 16px;
+              font-weight: 700;
+              background-color: black;
+              color: white;
+              border: none;
+              cursor: pointer;
+              &:hover{
+                  background-color: white;
+                  color: black;
+                  border: 1px solid black;
+              }
+          }
+          .takror{
+              width: 50px;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid black;
+              cursor: pointer;
+              &:hover{
+                  background-color: black;
+                  color: white;
+              }
+              svg{
+                  font-size: 32px;
+                  font-weight: 400;
+              }
+          }
+      }
+    }
+    
+  }
+}

@@ -131,3 +131,36 @@
         }
     }
 }
+@media (min-width: 1024px ) and ( max-width: 1410px){
+    .odevaut{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 50px auto;
+            padding: 0 10px;
+            .odevauttop{
+                width: 95%;
+                height: 30px;
+                p{
+                    font-size: 28px;
+                    color: black;
+                }
+            }
+            .odevautbotom{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 25px;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 23px;
+                .shop{
+                    display: none;
+                }
+            }
+        }
+    }
+}
