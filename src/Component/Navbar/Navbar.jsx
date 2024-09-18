@@ -14,16 +14,16 @@ const Navbar = ({setBars}) => {
       <HiBars3 onClick={()=> setBars(true)} className='bars2'/>
         <ul>
           <li>
-            <a href="#">Для него</a>  
+            <Link to={"/"}>Для него</Link>
           </li>
           <li>
-            <a href="#">Для нее</a>  
+          <Link to={"/Mujik"}>Для нее</Link>  
           </li>
           <li>
-            <a href="#">Для детей</a>  
+          <Link to={"/Heart"}>Для детей</Link> 
           </li>
           <li>
-            <a href="#">Товары для дома</a>  
+          <Link to={"/Cart"}>Товары для дома</Link> 
           </li>
         </ul>
         <div className="logo">

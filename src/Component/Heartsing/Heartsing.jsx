@@ -18,7 +18,7 @@ export const Heartsing = () => {
                         <p>Общая сумма</p>
                         <p><span>$400</span></p>
                     </div>
-                    <button>Оформить все</button>
+                   <a href="#Оформить"><button>Оформить все</button></a>
                 </div>
             </div>
             <div className={img ? 'heartbotom ' :"heartbotom active"}>
