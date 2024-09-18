@@ -7,7 +7,7 @@ const Downlod = ({down}) => {
         <div className="container">
             <h1>{down}</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button>Связаться c нами</button>
+            <a href="#Связаться"><button>Связаться c нами</button></a>
         </div>
     </section>
   )

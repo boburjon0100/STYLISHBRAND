@@ -9,7 +9,7 @@ const Header = () => {
                 <img src="./images/headerlogo.png" alt="" />
                 <h2>Измени свой имидж c Stylishbrand</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <button>Посмотреть каталог</button>
+                <a href="#Посмотретькаталог"><button>Посмотреть каталог</button></a>
             </div>
             <div className="right">
               <img src="./images/header2.png" alt="" />

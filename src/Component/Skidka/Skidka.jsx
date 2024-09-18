@@ -10,7 +10,7 @@ const Skidka = () => {
         <div className="text">
             <h1>ДО 20% СКИДКИ В КАТАЛОГЕ МУЖЧИН!</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <button>Подробнее</button>
+            <a href="#Подробнее"><button>Подробнее</button></a>
         </div>
         </div>
     </section>

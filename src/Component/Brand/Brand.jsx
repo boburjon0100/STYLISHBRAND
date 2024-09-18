@@ -8,10 +8,10 @@ const Brand = () => {
        
             <div className="top3">
                 <p>Одевайте маленких чуд в Stylishbrand!</p>
-                <div className="box">
+                <a href="#Посмотретькаталог"><div className="box">
                     <p>Посмотреть каталог</p>
                     <LuMoveRight />
-                </div>
+                </div></a>
             </div>
             <div className="botom">
               <img src="./images/brand.png" alt="" />

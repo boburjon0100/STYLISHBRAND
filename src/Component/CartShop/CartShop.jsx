@@ -95,7 +95,7 @@ const CartShop = () => {
                 $200
                 </p>
             </div>
-            <button><BsTelegram/>Связаться c оператором</button>
+            <a href="#Oпepaтopoм"><button><BsTelegram/>Связаться c оператором</button></a>
           </div>
           <div className="dostavka">
             <button><BsBoxSeam /> Доставка</button>
