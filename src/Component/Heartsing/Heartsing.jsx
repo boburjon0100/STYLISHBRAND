@@ -11,9 +11,9 @@ export const Heartsing = () => {
             <div className="topheart">
                 <div className="text">
                     <h1>Избранные</h1>
-                    <button onClick={() => setImg(false)} > <TfiTrash />Очистить избранные</button>
+                    <button className={img ? "buttonjon" :"buttonjon active"} onClick={() => setImg(false)} > <TfiTrash />Очистить избранные</button>
                 </div>
-                <div className="summa">
+                <div className={img ? "summa" : "summa active"}>
                     <div className="narx">
                         <p>Общая сумма</p>
                         <p><span>$400</span></p>
