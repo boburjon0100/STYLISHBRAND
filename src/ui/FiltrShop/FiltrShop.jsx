@@ -24,7 +24,7 @@ export default function ControlledAccordions() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header">
-          <Typography sx={{ width: '100%', flexShrink: 0  ,"font-size":"20px"}}>
+          <Typography sx={{ width: '100%', flexShrink: 0  ,fontSize:"20px"}}>
           Категории
           </Typography>
         </AccordionSummary>
@@ -40,7 +40,7 @@ export default function ControlledAccordions() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"20px"}}>Размеры</Typography>
+          <Typography sx={{ width: '100%', flexShrink: 0 , fontSize:"20px"}}>Размеры</Typography>
           
         </AccordionSummary>
         <AccordionDetails>
@@ -57,7 +57,7 @@ export default function ControlledAccordions() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"20px"}}>
+          <Typography sx={{ width: '100%', flexShrink: 0 , fontSize:"20px"}}>
           Бренд
           </Typography>
         </AccordionSummary>
@@ -74,7 +74,7 @@ export default function ControlledAccordions() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"20px"}}>Цвета</Typography>
+          <Typography sx={{ width: '100%', flexShrink: 0 , fontSize:"20px"}}>Цвета</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{display:"flex", alignItems:"center" , justifyContent:"center",}}>
@@ -89,16 +89,16 @@ export default function ControlledAccordions() {
           aria-controls="panel5bh-content"
           id="panel4bh-header"
         >
-          <Typography sx={{ width: '100%', flexShrink: 0 , "font-size":"20px"}}>Цены</Typography>
+          <Typography sx={{ width: '100%', flexShrink: 0 , fontSize:"20px"}}>Цены</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{display:"flex" , alignItems:"center" , justifyContent:"center", gap:"10px"}}>
             <div className="narx">
-              <p style={{color:"black" ,"font-weight":"400" ,"font-size":"14px"}}>От</p><p><span style={{color:"black" ,"font-weight":"600" ,"font-size":"20px"}}>$120</span></p></div>
+              <p style={{color:"black" , fontWeight:"400" ,fontSize:"14px"}}>От</p><p><span style={{color:"black" , fontWeight:"600" ,fontSize:"20px"}}>$120</span></p></div>
             <Volume/>
             <div className="narx">
-              <p style={{color:"black" ,"font-weight":"400" ,"font-size":"14px"}}>До</p>
-              <p><span style={{color:"black" ,"font-weight":"600" ,"font-size":"16px"}}>$500</span></p>
+              <p style={{color:"black" , fontWeight:"400" ,fontSize:"14px"}}>До</p>
+              <p><span style={{color:"black" , fontWeight:"600" ,fontSize:"16px"}}>$500</span></p>
             </div>
           </Typography>
         </AccordionDetails>
